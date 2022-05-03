@@ -3,14 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
-.top,h1{
-    font-family: 'PT Serif', serif;
-    margin-left: 3%; 
+body{
+    background-color: #fafafa;
 }
-.content,h2,p{
-    padding: 10px;
-    margin-left: 30% ;
+.top{
+    font-family: 'PT Serif', serif;
+    display: flex; 
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 5%;
+}
+.content{
+    margin-right: 100px;
+}
+.top,h1{
+    /* padding: 10px; */
     font-family: 'PT Serif', serif;  
+    margin-left: 40px;
 }
 .container1{
     display: flex;
@@ -43,8 +52,3 @@
        font-family:  'Poppins', sans-serif;
        color: #000000;
     }
-font-family-PT: 'PT Serif', serif;
-font-family-Mon: 'Montserrat', sans-serif;
-font-family-Pop: 'Poppins', sans-serif;
-color-black: #000000;
-background-color: #fafafa;
