@@ -45,8 +45,14 @@ body{
     color: #000000;
     margin: auto;
 }
-
-
+.image_item ,h3{
+    writing-mode: vertical-lr;
+    margin: 20px;
+    /* text-orientation: upright; */
+}
+.image_item ,p{
+    writing-mode: horizontal-tb;
+}
 @media (max-width: 576px) { 
     img{
         width: 100% !important;
