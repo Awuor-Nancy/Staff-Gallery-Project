@@ -47,7 +47,8 @@ body{
 }
 .image_item ,h3{
     writing-mode: vertical-lr;
-    margin: 20px;
+    margin: 14px;
+    font-size: 20px;
     /* text-orientation: upright; */
 }
 .image_item ,p{
